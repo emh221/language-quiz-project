@@ -1,3 +1,7 @@
 #output, #javascript, #ruby, #csharp, #uninterested, #incomplete {
   display: none;
 }
+
+.questions {
+  font-weight: bold;
+}

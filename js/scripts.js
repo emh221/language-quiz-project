@@ -15,7 +15,14 @@ $(document).ready(function(){
 
     var everything = (windows + games + flexibility + fullstack + dynamic)
 
-    if ((fullstack + dynamic) > 4 && (windows + games) > 4 && flexibility === 3) {
+    if (isNaN(fullstack) || isNaN(dynamic) || isNaN(games) || isNaN(windows) || isNaN(flexibility)){
+      $("#incomplete").slideDown();
+      $("#javascript").slideUp();
+      $("#ruby").slideUp();
+      $("#csharp").slideUp();
+      $("#uninterested").slideUp();
+      $("#output").slideUp();
+    } else if ((fullstack + dynamic) > 4 && (windows + games) > 4 && flexibility === 3) {
       $("#javascript").slideDown();
       $("#ruby").slideDown();
       $("#csharp").slideDown();
@@ -71,13 +78,6 @@ $(document).ready(function(){
       $("#csharp").slideUp();
       $("#output").slideUp();
       $("#incomplete").slideUp();
-    } else if (isNaN(fullstack) || isNaN(dynamic) || isNaN(games) || isNaN(windows) || isNaN(flexibility)){
-      $("#incomplete").slideDown();
-      $("#javascript").slideUp();
-      $("#ruby").slideUp();
-      $("#csharp").slideUp();
-      $("#uninterested").slideUp();
-      $("#output").slideUp();
     }
 
     console.log(windows)
