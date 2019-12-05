@@ -22,7 +22,7 @@
 
   * Load the webpage from github pages by typing this url into your browser and hitting return:
 
-    https://emh221.github.io/language-quiz-project.git
+    https://emh221.github.io/language-quiz-project/
 
 ## Technologies Used
 
