@@ -10,18 +10,23 @@
 <body>
   <div class="container">
 
-    <div class="jumbotron text-center">
-      <h2>Computer Language Quiz</h2>
-      <h3>Take this quiz to find out which computer language is most relevant to learn for you:</h3>
+
+    <div class="card text-center">
+      <div class="card-header bg-primary">
+        <h2 class="text-light font-weight-bold">Computer Language Quiz</h2>
+      </div>
+      <div class="card-body">
+        <h4 class="font-weight-bold">Take this quiz to find out which computer language is most relevant to learn for you:</h4>
+      </div>
     </div>
 
     <form id="quiz">
 
-      <div class="panel-primary text-center">
-        <div class="panel-heading">
-          <p class="questions">Are you interested creating window's desktop applications?</p>
+      <div class="card text-center">
+        <div class="card-header bg-primary">
+          <p class="questions text-light">Are you interested creating window's desktop applications?</p>
         </div>
-        <div class="panel-body">
+        <div class="card-body">
           <div class="radio">
             <label>
               <input type="radio" name="windows" value="3">
@@ -43,103 +48,114 @@
         </div>
       </div>
 
-      <div class="panel-primary text-center">
-        <div class="panel-heading">
-          <p class="questions">What is your interest level in designing games or VR prgrams?</p>
+      <div class="card text-center">
+        <div class="card-header bg-primary">
+          <p class="questions text-light">What is your interest level in designing games or VR prgrams?</p>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="games" value="3">
-            Very Interested
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="games" value="2">
-            Somewhat Interested
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="games" value="1">
-            Not At All!
-          </label>
-        </div>
-      </div>
-
-      <div class="panel-primary text-center">
-        <div class="panel-heading">
-          <p class="questions">Do the ideas that there is lots of enjoyable flexibility to be had, and that more than one way to do a single task and enjoy get you excited?</p>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flexibility" value="3">
-            Absolutely.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flexibility" value="2">
-            Depends on the task.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="flexibility" value="1">
-            Not really...
-          </label>
+        <div class="card-body">
+          <div class="radio">
+            <label>
+              <input type="radio" name="games" value="3">
+              Very Interested
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="games" value="2">
+              Somewhat Interested
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="games" value="1">
+              Not At All!
+            </label>
+          </div>
         </div>
       </div>
 
-      <div class="panel-primary text-center">
-        <div class="panel-heading">
-          <p class="questions">Do you like the idea of being able to create visual user elemets, as well as back-end server elements with just a single language?</p>
+      <div class="card text-center">
+        <div class="card-header bg-primary">
+          <p class="questions text-light">Do the ideas that there is lots of enjoyable flexibility to be had, and that more than one way to do a single task and enjoy get you excited?</p>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="fullstack" value="3">
-            Definitely!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="fullstack" value="2">
-            It doesn't matter to me.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="fullstack" value="1">
-            I don't care how many things you use a computer language for!
-          </label>
-        </div>
-      </div>
-
-      <div class="panel-primary text-center">
-        <div class="panel-heading">
-          <p class="questions">Do you love creating an interactive and dynamic experience for the user in which simply clicking on an object can give them a different outcome?</p>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="dynamic" value="3">
-            I love that!
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="dynamic" value="2">
-            That could be okay, I guess.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="dynamic" value="1">
-            That doesn't get me fired up.
-          </label>
+        <div class="card-body">
+          <div class="radio">
+            <label>
+              <input type="radio" name="flexibility" value="3">
+              Absolutely.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flexibility" value="2">
+              Depends on the task.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flexibility" value="1">
+              Not really...
+            </label>
+          </div>
         </div>
       </div>
 
-      <button type="submit" class="btn btn-success text-center">Submit</button>
+      <div class="card text-center">
+        <div class="card-header bg-primary">
+          <p class="questions text-light">Do you like the idea of being able to create visual user elemets, as well as back-end server elements with just a single language?</p>
+        </div>
+        <div class="card-body">
+          <div class="radio">
+            <label>
+              <input type="radio" name="fullstack" value="3">
+              Definitely!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="fullstack" value="2">
+              It doesn't matter to me.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="fullstack" value="1">
+              I don't care how many things you use a computer language for!
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card text-center">
+        <div class="card-header bg-primary">
+          <p class="questions text-light">Do you love creating an interactive and dynamic experience for the user in which simply clicking on an object can give them a different outcome?</p>
+        </div>
+        <div class="card-body">
+          <div class="radio">
+            <label>
+              <input type="radio" name="dynamic" value="3">
+              I love that!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="dynamic" value="2">
+              That could be okay, I guess.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="dynamic" value="1">
+              That doesn't get me fired up.
+            </label>
+          </div>
+        </div>
+        <div class="card-footer bg-primary">
+          <div class="text-center">
+            <button type="submit" class="btn btn-light">Submit</button>
+          </div>
+        </div>
+      </div>
 
     </form>
 
