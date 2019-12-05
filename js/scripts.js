@@ -80,12 +80,7 @@ $(document).ready(function(){
       $("#incomplete").slideUp();
     }
 
-    console.log(windows)
-    console.log(games)
-    console.log(flexibility)
-    console.log(fullstack)
-    console.log(dynamic)
-
+    $('html, body').animate({scrollTop:$(document).height()}, 'slow');
 
   });
 });
