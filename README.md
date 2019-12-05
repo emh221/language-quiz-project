@@ -1,6 +1,6 @@
-# Portfolio
+# Computer Language Quiz
 
-#### HTML Website about Eric Halliday, 12/05/2019
+#### HTML Website about what computer language is best for you to learn, 12/05/2019
 
 ### By Eric Halliday
 
