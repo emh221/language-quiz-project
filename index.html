@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="container">
-    
+
 
     <div class="card text-center m-2">
       <div class="card-header bg-info">
@@ -24,50 +24,36 @@
       <div class="card-group">
         <div class="card text-center m-2">
           <div class="card-header bg-info">
+            <p class="questions text-light"> Enter your name below:</p>
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Your Name">
+            </div>
+          </div>
+        </div>
+
+        <div class="card text-center m-2">
+          <div class="card-header bg-info">
             <p class="questions text-light">Are you interested creating window's desktop applications?</p>
           </div>
           <div class="card-body">
             <div class="radio">
               <label>
                 <input type="radio" name="windows" value="3">
-                Very Interested
+                A. Very Interested
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="windows" value="2">
-                Somewhat Interested
+                B. Somewhat Interested
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="windows" value="1">
-                Not At All!
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="card text-center m-2">
-          <div class="card-header bg-info">
-            <p class="questions text-light">What is your interest level in designing games or VR prgrams?</p>
-          </div>
-          <div class="card-body">
-            <div class="radio">
-              <label>
-                <input type="radio" name="games" value="3">
-                Very Interested
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="games" value="2">
-                Somewhat Interested
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="games" value="1">
-                Not At All!
+                C. Not At All!
               </label>
             </div>
           </div>
@@ -77,29 +63,57 @@
       <div class="card-group">
         <div class="card text-center m-2">
           <div class="card-header bg-info">
+            <p class="questions text-light">What is your interest level in designing games or VR prgrams?</p>
+          </div>
+          <div class="card-body">
+            <div class="radio">
+              <label>
+                <input type="radio" name="games" value="3">
+                A. Very Interested
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="games" value="2">
+                B. Somewhat Interested
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="games" value="1">
+                C. Not At All!
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="card text-center m-2">
+          <div class="card-header bg-info">
             <p class="questions text-light">Do the ideas that there is lots of enjoyable flexibility to be had, and that more than one way to do a single task and enjoy get you excited?</p>
           </div>
           <div class="card-body">
             <div class="radio">
               <label>
                 <input type="radio" name="flexibility" value="3">
-                Absolutely.
+                A. Absolutely.
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="flexibility" value="2">
-                Depends on the task.
+                B. Depends on the task.
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="flexibility" value="1">
-                Not really...
+                C. Not really...
               </label>
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="card-group">
         <div class="card text-center m-2">
           <div class="card-header bg-info">
             <p class="questions text-light">Do you like the idea of being able to create visual user elemets, as well as back-end server elements with just a single language?</p>
@@ -108,62 +122,61 @@
             <div class="radio">
               <label>
                 <input type="radio" name="fullstack" value="3">
-                Definitely!
+                A. Definitely!
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="fullstack" value="2">
-                It doesn't matter to me.
+                B. It doesn't matter to me.
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="fullstack" value="1">
-                I don't care how many things you use a computer language for!
+                C. I don't care how many things you use a computer language for!
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="card text-center m-2">
+          <div class="card-header bg-info">
+            <p class="questions text-light">Do you love creating an interactive and dynamic experience for the user in which simply clicking on an object can give them a different outcome?</p>
+          </div>
+          <div class="card-body">
+            <div class="radio">
+              <label>
+                <input type="radio" name="dynamic" value="3">
+                A. I love that!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="dynamic" value="2">
+                B. That could be okay, I guess.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="dynamic" value="1">
+                C. That doesn't get me fired up.
               </label>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="card text-center m-2">
-        <div class="card-header bg-info">
-          <p class="questions text-light">Do you love creating an interactive and dynamic experience for the user in which simply clicking on an object can give them a different outcome?</p>
-        </div>
-        <div class="card-body">
-          <div class="radio">
-            <label>
-              <input type="radio" name="dynamic" value="3">
-              I love that!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="dynamic" value="2">
-              That could be okay, I guess.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="dynamic" value="1">
-              That doesn't get me fired up.
-            </label>
-          </div>
-        </div>
-        <div class="card-footer bg-info">
-          <div class="text-center">
-            <button type="submit" class="btn btn-light">Submit</button>
-          </div>
+      <div class="card">
+        <div class="text-center card-header bg-info m3">
+          <button type="submit" class="btn btn-light">Submit</button>
         </div>
       </div>
-
     </form>
 
     <div id="output">
       <div class="card ml1 mr1 mb1 mt text-center">
         <div class="card-header bg-primary text-light">
-          <h3 class="font-weight-bold">Here are one or more languages you may want to consider learning:</h3>
+          <h3 class="font-weight-bold"><span class="name"></span>, here are one or more languages you may want to consider learning:</h3>
         </div>
       </div>
     </div>
@@ -175,6 +188,17 @@
         </div>
         <div class="card-body">
           <p>JavaScript is used for all of the normal kinds of web browser activities like drop-down menus, hiding, or showing something when a button is clicked, and more! There are a variety of JavaScript frameworks that one can build websites or web applications around. Examples of them are React, Angular, or Vue.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="allc">
+      <div class="card text-center m3">
+        <div class="card-header bg-primary text-light">
+          <h4 class="font-weight-bold">C#</h4>
+        </div>
+        <div class="card-body">
+          <p> Because you chose all c's, you should study C#!!</p>
         </div>
       </div>
     </div>
@@ -204,7 +228,7 @@
     <div id="uninterested">
       <div class="card text-center m3">
         <div class="card-header bg-primary text-highlight">
-          <h3 class="font-weight-bold">You don't seem very interested in anything above!</h3>
+          <h3 class="font-weight-bold"><span class="name"></span>, you don't seem very interested in anything above!</h3>
         </div>
         <div class="card-body">
           <p>Honestly, if none of the concepts or ideas listed above get you at all excited, learning a computer language might not be for you. You should ask yourself if anything above excites you even a little bit. If not, you should consider spending your time doing something else! </p>
@@ -215,7 +239,7 @@
     <div id="incomplete">
       <div class="card text-center m3">
         <div class="card-header text-light bg-primary">
-          <h3 class="font-weight-bold">The form is incomplete!</h3>
+          <h3 class="font-weight-bold"><span class="name"></span>, the form is incomplete!</h3>
         </div>
         <div class="card-body">
           <p>Please read all the questions fully, and pick a response for each of them, then submit the form again.</p>
