@@ -15,69 +15,42 @@ $(document).ready(function(){
 
     var everything = (windows + games + flexibility + fullstack + dynamic)
 
+    $("#incomplete").slideUp();
+    $("#javascript").slideUp();
+    $("#ruby").slideUp();
+    $("#csharp").slideUp();
+    $("#uninterested").slideUp();
+    $("#output").slideUp();
+
     if (isNaN(fullstack) || isNaN(dynamic) || isNaN(games) || isNaN(windows) || isNaN(flexibility)){
       $("#incomplete").slideDown();
-      $("#javascript").slideUp();
-      $("#ruby").slideUp();
-      $("#csharp").slideUp();
-      $("#uninterested").slideUp();
-      $("#output").slideUp();
     } else if ((fullstack + dynamic) > 4 && (windows + games) > 4 && flexibility === 3) {
       $("#javascript").slideDown();
       $("#ruby").slideDown();
       $("#csharp").slideDown();
-      $("#uninterested").slideUp();
       $("#output").slideDown();
-      $("#incomplete").slideUp();
     } else if ((fullstack + dynamic) > 4 && flexibility === 3) {
       $("#javascript").slideDown();
       $("#ruby").slideDown();
-      $("#csharp").slideUp();
-      $("#uninterested").slideUp();
       $("#output").slideDown();
-      $("#incomplete").slideUp();
     } else if ((fullstack + dynamic) > 4 && (windows + games) > 4) {
       $("#javascript").slideDown();
-      $("#ruby").slideUp();
       $("#csharp").slideDown();
-      $("#uninterested").slideUp();
       $("#output").slideDown();
-      $("#incomplete").slideUp();
     } else if ((windows + games) > 4 && flexibility === 3) {
-      $("#javascript").slideUp();
       $("#ruby").slideDown();
       $("#csharp").slideDown();
-      $("#uninterested").slideUp();
       $("#output").slideDown();
-      $("#incomplete").slideUp();
     } else if ((windows+games) > 4) {
-      $("#javascript").slideUp();
-      $("#ruby").slideUp();
       $("#csharp").slideDown();
-      $("#uninterested").slideUp();
       $("#output").slideDown();
-      $("#incomplete").slideUp();
     } else if ((fullstack + dynamic) > 4) {
       $("#javascript").slideDown();
-      $("#ruby").slideUp();
-      $("#csharp").slideUp();
-      $("#uninterested").slideUp()
-      $("#output").slideDown();
-      $("#incomplete").slideUp();
     } else if (flexibility === 3) {
-      $("#javascript").slideUp();
       $("#ruby").slideDown();
-      $("#csharp").slideUp();
-      $("#uninterested").slideUp();
       $("#output").slideDown();
-      $("#incomplete").slideUp();
     } else if (everything <= 10){
       $("#uninterested").slideDown();
-      $("#javascript").slideUp();
-      $("#ruby").slideUp();
-      $("#csharp").slideUp();
-      $("#output").slideUp();
-      $("#incomplete").slideUp();
     }
 
     $('html, body').animate({scrollTop:$(document).height()}, 'slow');
